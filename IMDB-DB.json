@@ -1,22 +1,4 @@
-//IMDB design 
-//1. Movie should have multiple media(Video or Image)
-"media":{"poster","trailer"},
-//2. Movie can belongs to multiple Genre 
-"Genre":{"genre-1/genre-2"},
-//3. Movie can have multiple reviews and Review can belongs to a user 
-"review": [
-      { "user": "1","rating": "8","comments": "nice movie" },
-      { "user": "2","rating": "8.2","comments": "super movie" },
-    ],
-//4. Artist can have multiple skills 
-//5. Artist can perform multiple role in a single film
-"artist": [
-      { "name": "Ram charan", "skills": "dancing", "role": "hero1" },
-      { "name": "N.T.R", "skills": "dancing", "role": "hero2" }
-    ],
-
-
-const IMDB=[
+[
   {
     "id": "100",
     "name": "RRR02",
