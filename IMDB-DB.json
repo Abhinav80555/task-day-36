@@ -1,13 +1,30 @@
-[
+//IMDB design 
+//1. Movie should have multiple media(Video or Image)
+"media":{"poster","trailer"},
+//2. Movie can belongs to multiple Genre 
+"Genre":{"genre-1/genre-2"},
+//3. Movie can have multiple reviews and Review can belongs to a user 
+"review": [
+      { "user": "1","rating": "8","comments": "nice movie" },
+      { "user": "2","rating": "8.2","comments": "super movie" },
+    ],
+//4. Artist can have multiple skills 
+//5. Artist can perform multiple role in a single film
+"artist": [
+      { "name": "Ram charan", "skills": "dancing", "role": "hero1" },
+      { "name": "N.T.R", "skills": "dancing", "role": "hero2" }
+    ],
+
+
+const IMDB=[
   {
     "id": "100",
     "name": "RRR02",
     "poster": "https://englishtribuneimages.blob.core.windows.net/gallary-content/2021/6/Desk/2021_6$largeimg_977224513.JPG",
     "genre": "action/periodic-drama",
     "review": [
-      { "user": "100" },
-      { "rating": "8" },
-      { "comments": "nice movie" }
+      { "user": "1","rating": "8","comments": "nice movie" },
+      { "user": "2","rating": "8.2","comments": "super movie" },
     ],
     "artist": [
       { "name": "Ram charan", "skills": "dancing", "role": "hero1" },
@@ -22,9 +39,8 @@
     "poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_FMjpg_UX1000_.jpg",
     "genre": "sci-fic/adventures",
     "review": [
-      { "user": "101" },
-      { "rating": "9" },
-      { "comments": "nice movie" }
+      { "user": "1","rating": "8","comments": "nice movie" },
+      { "user": "2","rating": "8.2","comments": "super movie" },
     ],
     "artist": [
       { "name": "Robert Downey", "skills": "popular-actor", "role": "hero" },
@@ -38,10 +54,9 @@
     "name": "No Country for Old Men",
     "poster": "https://upload.wikimedia.org/wikipedia/en/8/8b/No_Country_for_Old_Men_poster.jpg",
     "genre": "crime/drama",
-    "review": [
-      { "user": "103" },
-      { "rating": "8" },
-      { "comments": "nice movie" }
+   "review": [
+      { "user": "1","rating": "8","comments": "nice movie" },
+      { "user": "2","rating": "8.2","comments": "super movie" },
     ],
     "artist": [
       { "name": "Javier", "skills": "versatile actor", "role": "villan" },
@@ -56,10 +71,9 @@
     "poster": "https://m.media-amazon.com/images/M/MV5BY2Y5ZWMwZDgtZDQxYy00Mjk0LThhY2YtMmU1MTRmMjVhMjRiXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_FMjpg_UX1000_.jpg",
     "summary": "A tribal woman and a righteous lawyer battle in court to unravel the mystery around the disappearance of her husband, who was picked up the police on a false case",
     "genre": "legal-drama/mystery",
-    "review": [
-      { "user": "103" },
-      { "rating": "8.5" },
-      { "comments": "nice movie" }
+   "review": [
+      { "user": "1","rating": "8","comments": "nice movie" },
+      { "user": "2","rating": "8.2","comments": "super movie" },
     ],
     "artist": [
       { "name": "Surya", "skills": "fitness", "role": "hero" },
@@ -72,9 +86,8 @@
     "name": "The Avengers",
     "genre": "action/sci-fic",
     "review": [
-      { "user": "104" },
-      { "rating": "8.7" },
-      { "comments": "nice movie" }
+      { "user": "1","rating": "8","comments": "nice movie" },
+      { "user": "2","rating": "8.2","comments": "super movie" },
     ],
     "artist": [
       { "name": "Robert Downey", "skills": "popular-actor", "role": "hero" },
@@ -90,9 +103,8 @@
     "poster": "https://m.media-amazon.com/images/I/A1JVqNMI7UL._SL1500_.jpg",
     "genre": "sci-fic",
     "review": [
-      { "user": "105" },
-      { "rating": "8.2" },
-      { "comments": "nice movie" }
+      { "user": "1","rating": "8","comments": "nice movie" },
+      { "user": "2","rating": "8.2","comments": "super movie" },
     ],
     "artist": [
       { "name": "Matthew", "skills": "modeling", "role": "hero1" },
@@ -107,9 +119,8 @@
     "poster": "https://flxt.tmsimg.com/assets/p11546593_p_v10_af.jpg",
     "genre": "action/drama",
     "review": [
-      { "user": "106" },
-      { "rating": "8" },
-      { "comments": "nice movie" }
+      { "user": "1","rating": "8","comments": "nice movie" },
+      { "user": "2","rating": "8.2","comments": "super movie" },
     ],
     "artist": [
       { "name": "Prabhas", "skills": "dancer", "role": "hero1" },
